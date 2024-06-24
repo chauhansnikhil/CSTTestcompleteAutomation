@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="starttime" type="D" value="45464.5208680903"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Perform substraction in Windows Calculator"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The process &quot;Calculator&quot; was not found."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The process &quot;Calculator&quot; was not found."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The process &quot;Calculator&quot; was not found."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The process &quot;Calculator&quot; was not found."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADcAMgA3ADkARQA0ADIALQA2ADIANQA4AC0ANAAwADAAMwAtAEEARgA3AEYALQA4AEIAOQBFADEARAA1ADEANQA4ADAANgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45464.5204544329"/>
+						<Prp name="duration" type="I" value="35690"/>
+						<Prp name="durationwithoutchildren" type="I" value="35690"/>
+						<Prp name="name" type="S" value="Perform addition in Windows Calculator"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="45464.5204544329"/>
+				<Prp name="duration" type="I" value="35690"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="name" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Prp name="testname" type="S" value="Project"/>
+		<Prp name="name" type="S" value="Project1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45464.5208692477"/>
+		<Prp name="starttime" type="D" value="45464.5204504861"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="user" type="S" value="nikhil.chauhan"/>
+		<Prp name="incompletedtests" type="I" value="1"/>
+		<Prp name="key" type="S" value="{6AA81A39-4DD0-4248-A21A-438CA3998DDA}"/>
+		<Prp name="host" type="S" value="GL-Dev-65"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>

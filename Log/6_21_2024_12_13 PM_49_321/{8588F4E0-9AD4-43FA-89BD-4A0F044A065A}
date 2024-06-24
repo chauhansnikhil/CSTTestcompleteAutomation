@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 11">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="24"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;Window(&quot;CalcFrame&quot;)&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+			<Prp name="stack end" type="I" value="27"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="9"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5100871412"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="20"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="9"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5100862153"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Then the result should be &quot;50&quot; on the calculator display"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.510209919"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="Then the result should be &quot;50&quot; on the calculator display"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="Then the result should be &quot;50&quot; on the calculator display"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 19">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="44"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Test failed. Expected: 50, but got: Non-existent object"/>
+			<Prp name="stack end" type="I" value="47"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5103290741"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="32"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;Window(&quot;CalcFrame&quot;)&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+			<Prp name="stack end" type="I" value="35"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5102092245"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="stacktext" type="S" value="When I enter &quot;25&quot;"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="6"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5099665972"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Calculator did not open."/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5097238657"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="And I enter &quot;25&quot;"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 44">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="40"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WndCaption&quot; method or property of the &quot;Window(&quot;Static&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;Static&quot;, &quot;&quot;, 1)&quot; does not exist."/>
+			<Prp name="stack end" type="I" value="43"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.510328287"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="And I press the &quot;+&quot; button"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.509844919"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="36"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="stack end" type="I" value="39"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.510327581"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;Window(&quot;CalcFrame&quot;)&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.509844456"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 47">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="And I press the &quot;+&quot; button"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="Given I have opened the Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="16"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Keys&quot; method or property of the &quot;Window(&quot;CalcFrame&quot;)&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;Window(&quot;CalcFrame&quot;)&quot; does not exist."/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="6"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.509967338"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="stacktext" type="S" value="When I enter &quot;25&quot;"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="When I enter &quot;25&quot;"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5097243287"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 38">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="And I enter &quot;25&quot;"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="And I press the &quot;=&quot; button"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="And I press the &quot;=&quot; button"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5100876042"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 43">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Given I have opened the Windows Calculator"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5096023843"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 16">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="28"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="stack end" type="I" value="31"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5102073727"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="And I enter &quot;25&quot;"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5099678009"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="TestProject4\Scenarios\CalFeature.feature"/>
+			<Prp name="unit 1" type="S" value="{6E4D3A51-F11B-45B6-934D-03943DF3E604}"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="And I press the &quot;=&quot; button"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5096021296"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="And I press the &quot;+&quot; button"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="remarks" type="S" value="Name = Calculator, Index = -1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;Calculator&quot; was not found."/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.5098437616"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 46">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 45">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="Then the result should be &quot;50&quot; on the calculator display"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="Perform addition in Windows Calculator"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Actual result: Non-existent object"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="15"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45464.510328287"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stacktext" type="S" value="Calculator Operations"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

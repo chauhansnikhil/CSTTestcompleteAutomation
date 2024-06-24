@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.5977797222"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{751E96A7-7959-44E2-A4A4-1C40E1E55C93}"/>
+				<Prp name="nameofroot" type="S" value="Description of the new feature1"/>
+				<Prp name="relpath" type="S" value="6_20_2024_2_20 PM_48_168\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6140642014"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{523949F9-9E41-4D8F-B579-2363628B83D5}"/>
+				<Prp name="nameofroot" type="S" value="the result should be &quot;50&quot; on the calculator display"/>
+				<Prp name="relpath" type="S" value="6_20_2024_2_44 PM_15_147\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6231820023"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8E18B2C3-BCF2-4488-8D3F-59950CAE6BEA}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_20_2024_2_57 PM_22_926\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6281895486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8AC1E339-7FE9-4A9A-9FAD-30C6108614FF}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_20_2024_3_04 PM_35_577\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6287381829"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{60945CFB-3B33-4EF4-A703-FB840A3FCF3C}"/>
+				<Prp name="nameofroot" type="S" value="Perform addition in Windows Calculator"/>
+				<Prp name="relpath" type="S" value="6_20_2024_3_05 PM_22_979\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6292488889"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FD86426A-C1C8-4F08-BA9D-89F73E542891}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_20_2024_3_06 PM_07_104\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6294878472"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{68B0988B-174B-4BF3-A275-C75A30529E9F}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_20_2024_3_06 PM_27_750\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6332112384"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F204AD11-DF6D-4D54-A262-9DC7F2F6937A}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_20_2024_3_11 PM_49_451\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45463.6338035764"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{01D6BF55-8C05-41EC-AD30-833041218A8B}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_20_2024_3_12 PM_40_630\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45464.5034119329"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{182C737F-CF69-49AC-987C-C0E7D2B9B417}"/>
+				<Prp name="nameofroot" type="S" value="Perform addition in Windows Calculator"/>
+				<Prp name="relpath" type="S" value="6_21_2024_12_04 PM_54_791\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45464.5095985069"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C9A5ABFF-1155-4A03-A742-CA7F70FEC6EE}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_21_2024_12_13 PM_49_321\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45464.5204415972"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{188D3A15-09B0-41B7-9D1B-5E5E3EDCD613}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_21_2024_12_29 PM_26_154\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4014664699"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{55131329-B3CE-456D-8FF5-C18E4F0438CC}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_38 AM_06_703\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4024833333"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{96AE22F4-C941-4A29-AB50-C616E80D12C6}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_39 AM_34_560\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4066931713"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A468B54C-781C-4E3B-819A-43FC7C797209}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_45 AM_38_290\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4083693287"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{78B0496F-1BD8-447A-A895-03CF2B24A105}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_48 AM_03_110\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4094114005"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4A0476F3-A4FF-44D9-8448-4993115DD72F}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_49 AM_33_145\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4101507292"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B7EAF41C-AC03-4943-A82B-28C77D879C8B}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_50 AM_37_23\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4119938194"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8AB48A04-B2BF-484C-85B2-C6C491D8F04E}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_53 AM_16_266\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4127850347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{01940994-EEEB-4B07-8D96-B5A15D4CD984}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_54 AM_24_627\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4139265625"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F5249353-8819-4097-9B51-EE0D2E0A810A}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_9_56 AM_03_255\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4209557407"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{281418C6-B33C-4B10-AD08-03B824EA0A8B}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_10_06 AM_10_576\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.421766007"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1463AC7C-6859-4A5C-9CF5-FBA8BEAF1064}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_10_07 AM_20_583\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4230957292"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0FC8AD32-9DCE-4417-9845-69B0374BE3E9}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_10_09 AM_15_471\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.4287207176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FE39A436-D0BC-4AC9-8263-DD71E22CA94F}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_10_17 AM_21_470\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45467.42984"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{88B7FA6C-D605-4558-AEF0-850BD798C577}"/>
+				<Prp name="nameofroot" type="S" value="Project"/>
+				<Prp name="relpath" type="S" value="6_24_2024_10_18 AM_58_176\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

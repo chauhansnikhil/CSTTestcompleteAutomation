@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45467.4139422685"/>
+						<Prp name="durationwithoutchildren" type="I" value="10991"/>
+						<Prp name="name" type="S" value="Perform addition in Windows Calculator"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="10991"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEYAOAA3ADcAMQAwAEEALQBGAEEANQA2AC0ANAAxADQAQQAtADkAQgBGAEYALQAyADAANgA4ADUAQQA0ADUARQA2AEEANAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45467.4139422685"/>
+				<Prp name="name" type="S" value="Project"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="10991"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="starttime" type="D" value="45467.413926794"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{1525CC43-3ECB-4F36-AF2B-1A060191F287}"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="nikhil.chauhan"/>
+		<Prp name="host" type="S" value="GL-Dev-65"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="name" type="S" value="Project1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="testname" type="S" value="Project"/>
+		<Prp name="stop" type="D" value="45467.4140820023"/>
+	</Node>
+</Nodes>

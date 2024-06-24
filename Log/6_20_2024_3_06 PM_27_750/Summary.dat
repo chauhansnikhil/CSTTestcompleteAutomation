@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="261"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEEAQwA2AEMAOAAxAEUALQBDADcAQQA4AC0ANAA3ADgAOQAtAEIAMgAyADkALQAxAEUAQgBCAEIAQQBDAEYARgBDAEQANgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="261"/>
+						<Prp name="starttime" type="D" value="45463.629502662"/>
+						<Prp name="name" type="S" value="Perform addition in Windows Calculator"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="261"/>
+				<Prp name="name" type="S" value="Project"/>
+				<Prp name="starttime" type="D" value="45463.629502662"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="Project1"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Project"/>
+		<Prp name="user" type="S" value="nikhil.chauhan"/>
+		<Prp name="stop" type="D" value="45463.629507338"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{488A0961-5C0E-40E4-9E57-BB4EF7DE4D47}"/>
+		<Prp name="starttime" type="D" value="45463.629487963"/>
+		<Prp name="host" type="S" value="GL-Dev-65"/>
+	</Node>
+</Nodes>

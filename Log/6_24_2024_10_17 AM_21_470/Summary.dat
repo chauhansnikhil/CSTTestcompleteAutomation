@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The browser is already running."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="NotImplementedError"/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="NotImplementedError"/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="6441"/>
+						<Prp name="name" type="S" value="user opens google homepage"/>
+						<Prp name="duration" type="I" value="6441"/>
+						<Prp name="starttime" type="D" value="45467.4288196181"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADYAQQA2ADkAMABFADEALQBBAEUARABGAC0ANABBADkAOAAtAEIARQBBADgALQBGADgARQBCADgAQQBEAEMAMgA5ADEAOQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="5779"/>
+						<Prp name="name" type="S" value="Perform addition in Windows Calculator"/>
+						<Prp name="duration" type="I" value="5779"/>
+						<Prp name="starttime" type="D" value="45467.4287516204"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADUARgBFADcAMgA1ADkALQBBAEMARQAzAC0ANABBAEMAMAAtAEEANwA4AEQALQA4AEMAMgA0ADcARgBCAEYANgA5ADAANgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="name" type="S" value="Project"/>
+				<Prp name="duration" type="I" value="12220"/>
+				<Prp name="starttime" type="D" value="45467.4287516204"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="testname" type="S" value="Project"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="45467.428738588"/>
+		<Prp name="stop" type="D" value="45467.4288959491"/>
+		<Prp name="key" type="S" value="{F70ACA2E-9439-4CBF-9A9B-D87CFFFDE08F}"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="GL-Dev-65"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="Project1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="nikhil.chauhan"/>
+	</Node>
+</Nodes>
